@@ -1,15 +1,14 @@
 Java concurrency in practice 내용 정리
 =========
 
+
 ## Book
 - [Java concurrency in practice](http://www.yes24.com/24/goods/1550580)
   - package : net.jcip
   - 원본 : <http://jcip.net/listings.html>, <http://jcip.net/jcip-examples-src.jar>
 
 ## TOC
-
-	
-
+- https://withbeth.oopy.io/0a24966a-d166-455e-90e1-fdf3f7825254
 
 ## Reference
 - [Effective Java 2nd edition](http://www.yes24.com/24/goods/2416238)
