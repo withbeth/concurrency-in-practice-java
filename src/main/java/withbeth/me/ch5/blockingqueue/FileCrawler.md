@@ -6,7 +6,7 @@ BlockingQueue의 Producer-Consumer 패턴을 적용하기 좋은 예제 작성
 
 [ What ]
 
-- 지정된 디렉토리계층구조에 들어씨는 파일을 전부 읽어 들여, 해당 파일의 Index를 만드는 작업 수행 
+- 지정된 디렉토리계층구조에 포함된 파일을 전부 읽어 들여, 해당 파일의 Index를 만드는 작업 수행 
 - Producer : Searching FILE (검색 대상 파일 이름을 모두 BlockingQueue에 쌓아넣기)
 - Consumer : Indexing File (BlockingQueue에서 파일 이름을 하나씩 꺼내서 Indexing)
 
@@ -26,4 +26,6 @@ BlockingQueue의 Producer-Consumer 패턴을 적용하기 좋은 예제 작성
 
 2. Executor Framework적용
 - Executor Framework은 내부적으로 Producer-Consumer패턴 적용되어 있다.
+
+3. InterruptedException handling 방법?
 
