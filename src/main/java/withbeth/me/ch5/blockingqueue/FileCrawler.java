@@ -26,7 +26,11 @@ public class FileCrawler {
             try {
                 crawl(startRoot);
             } catch (InterruptedException e) {
-                // TODO : 왜 예외 전파하지 않고 인터럽트 하고 끝내는지?
+                // Q: 왜 예외 전파하지 않고 인터럽트 하고 끝내는지?
+                // A:
+                // - 애초에 run메서드가 해당예외를 던지지않기에, overriding한 이 메서드에서 전파할수 없다.
+                // - 따라서, 여기서 할수 있는 최선은, 현재 스레드의 interrupt()를 호출하여,
+                //   인터럽트 상태를 설정해, 상위 호출 메서드가 인터럽트 상황이 발생했음을 알리는 것뿐이다.
                 Thread.currentThread().interrupt();
             }
         }

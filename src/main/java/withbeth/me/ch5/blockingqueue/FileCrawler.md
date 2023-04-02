@@ -28,4 +28,9 @@ BlockingQueue의 Producer-Consumer 패턴을 적용하기 좋은 예제 작성
 - Executor Framework은 내부적으로 Producer-Consumer패턴 적용되어 있다.
 
 3. InterruptedException handling 방법?
+- A) 예외 전파(책임 떠넘기기) : 
+  - 인터럽트 처리가 어렵거나, 귀찮을때
+- B) 인터럽트 무시하고 복구하기 : 
+  - Runnable같이 해당예외를 던질수 없는 경우, 해당 스레드의 interrupt()를 호출해 인터럽트 상태를 설정하여,
+  - 상위 호출 메서드가 인터럽트 상황이 발생했음을 알린다.
 
