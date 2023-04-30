@@ -1,4 +1,4 @@
-package withbeth.me.ch5.latch;
+package withbeth.concurrencyInPractice.ch5.latch;
 
 import java.util.concurrent.CountDownLatch;
 

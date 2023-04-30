@@ -1,4 +1,4 @@
-package withbeth.me.ch5.futuretask;
+package withbeth.concurrencyInPractice.ch5.futuretask;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

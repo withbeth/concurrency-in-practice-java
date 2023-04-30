@@ -1,4 +1,4 @@
-package withbeth.me.ch2.threadsafe;
+package withbeth.concurrencyInPractice.ch2.threadsafe;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

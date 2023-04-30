@@ -1,10 +1,10 @@
-package withbeth.me;
+package withbeth.concurrencyInPractice;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.server.WebServer;
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
-import withbeth.me.ch2.threadsafe.StatelessFactorizer;
+import withbeth.concurrencyInPractice.ch2.threadsafe.StatelessFactorizer;
 
 @SpringBootApplication
 public class Main {

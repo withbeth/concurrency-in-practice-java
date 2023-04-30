@@ -1,0 +1,19 @@
+
+Y
+)src/test/java/ch3/reodering/reordering.md,a/a/aafa63081135aa03f6e1ee59302599fbef441616
+]
+-src/test/java/ch3/reodering/NoVisibility.java,e/8/e80499d2cb281a54f99ea20ed375ac4c4c1ba984
+]
+-src/test/java/ch5/synchronizer/Preloader.java,a/0/a01e90006a5dce2a2f565041ddc2bc83b053cb59
+_
+/src/test/java/ch5/synchronizer/TestHarness.java,5/3/53cbbde7801909c3f939a55a262b7edef2a9313f
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+q
+Asrc/main/java/withbeth/me/ch2/threadsafe/StatelessFactorizer.java,6/0/606d789df8995c0b33ce2f57ebcce1cf2148723c
+h
+8src/main/java/withbeth/me/ch2/threadsafe/ThreadSafe.java,a/c/ac6385198b9276d961aeaf33727ce3f2b9b724a4
+S
+#src/main/java/withbeth/me/Main.java,2/5/25a98ccc9027eb19420ac85c5119abadaf5b8c0b
+l
+<src/main/java/withbeth/me/ch5/blockingqueue/FileCrawler.java,3/8/3847eafae1a17cfadabcc82e80713dd07afc35a0

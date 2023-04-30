@@ -1,4 +1,4 @@
-package withbeth.me.ch5.blockingqueue;
+package withbeth.concurrencyInPractice.ch5.blockingqueue;
 
 
 import java.io.File;

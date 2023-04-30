@@ -1,4 +1,4 @@
-package withbeth.me.ch5.futuretask;
+package withbeth.concurrencyInPractice.ch5.futuretask;
 
 public class DataLoadException extends RuntimeException {
 
